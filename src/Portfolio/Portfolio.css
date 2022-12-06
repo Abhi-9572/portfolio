@@ -1,0 +1,64 @@
+.portfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+.portfolio span:nth-of-type(1)
+{
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.portfolio span:nth-of-type(2)
+{
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.portfolio .swiper{
+    overflow: visible!important;
+}
+
+.portfolio-slider {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.portfolio-slider .swiper-slide {
+  width: 20rem;
+  
+}
+.portfolio div {
+    /* border: 7px solid var(--orange); */
+    /* background-color: aqua; */
+    width: 50rem;
+    border-radius: 19px;
+}
+
+.portfolio div h2 {
+
+    color:var(--black);
+  font-size:1.5rem;
+  
+}
+
+.portfolio div *
+{
+color:var(--gray);
+font-size:16px;
+}
+
+.p-button {
+    background: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+  }
+  .allProject{
+    margin-bottom: 50px;
+  }
