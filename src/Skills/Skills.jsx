@@ -5,7 +5,7 @@ import './Skills.css'
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id='Skills'>
        <div className="awesome">
             <span>My </span>
             <span>Skills</span>

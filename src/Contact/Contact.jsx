@@ -33,9 +33,10 @@ const Contact = () => {
     <div className="contact-form" id="contact">
            <div className="w-left">
         <div className="awesome">
-          {/* darkMode */}
-          {/* <span style={{color: darkMode?'white': ''}}>Get in Touch</span> */}
           <span>Contact me</span>
+          <br />
+          <span>Mob:6204293465</span>
+          <span>Email:abhishekraj19992@gmail.com</span>
           <div
             className="blur s-blur1"
             style={{ background: "#ABF1FF94" }}

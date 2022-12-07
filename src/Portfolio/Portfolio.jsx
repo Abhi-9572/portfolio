@@ -7,7 +7,7 @@ import 'swiper/css/pagination'
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id='Portfolio'>
         <span>Recent Project</span>
         <span>Portfolio</span>
 

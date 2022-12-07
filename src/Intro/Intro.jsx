@@ -10,6 +10,7 @@ import boy from '../img/boy.png'
 import crown from '../img/crown.png'
 import thumbup from '../img/thumbup.png'
 import FloatinDiv from '../FloatingDiv/FloatingDiv'
+import { Link } from 'react-scroll'
 
 
 const Intro = () => {
@@ -19,14 +20,17 @@ const Intro = () => {
             <div className="i-name">
                 <span>Hy! I am </span>
                 <span>Abhishek Raj</span>
-                <span><b>Fronted developer, completed training from Acciojob.</b>
+                <span><b>Front-end developer, completed training from Acciojob.</b>
                 <br/>Passionate about Developing Websites and seeking a career that is chalanging<br/> and interesting,and lets me work on the leading areas of technology</span>
             </div>
+            <Link spy={true} to='contact' smooth={true}>
             <button className="i-button button">
                     Hire me
             </button>
+            </Link>
+           
             <div className="i-icons">
-                <a href=''><img src={linkedin} alt="" /></a>
+                <a href='https://www.linkedin.com/in/abhishek-raj-019079172'><img src={linkedin} alt="" /></a>
                 <a href=''><img src={instagram} alt="" /></a>
                 <a href='https://github.com/Abhi-9572'><img src={github} alt="" /></a>
             </div>
